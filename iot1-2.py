@@ -38,7 +38,7 @@ while True:
 
     elif  lit1 == "q":
         print("Emulator has been stoped... t- 3 seconds to exit")
-        GPIO.output(MotionsensorPin, False) n
+        GPIO.output(MotionsensorPin, False) 
         GPIO.output(FanPin,   False)
         exit()
 
