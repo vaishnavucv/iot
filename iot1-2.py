@@ -2,7 +2,7 @@
 # Code Cell 1.
 # Import the dweepy module that is a collection of functions that make it
 # easier to communicate with dweet.io
-import dweepy
+#import dweepy
 
 # Import the GPIO modules to control the GPIO pins of the Raspberry Pi
 # Uncomment the following only when testing on a physcial Rasberry Pi
@@ -19,6 +19,7 @@ from IPython.display import clear_output
 
 # Import the time module to control the timing of your application (e.g. add delay, etc.)
 import time
+import requests
 
 import os
 
